@@ -1,7 +1,9 @@
 import "./App.css";
 import Frase from "./components/Frase";
+import List from './components/List';
 import Pessoa from "./components/Pessoa";
 import SayMyName from "./components/SayMyName";
+
 function App() {
   const nome = "Maria";
 
@@ -20,6 +22,7 @@ function App() {
         profissao=" Programador"
         foto="https://via.placeholder.com/150"
       />
+      <List/>
     </div>
   );
 }
